@@ -1,5 +1,5 @@
 # cloudshell-novnc-automation
-Google Cloudshell Free VPS with Docker-novnc and Ngrok - AUTOMATION
+Google Cloudshell Free VPS with Docker-novnc and Cloudflare Tunnel - AUTOMATION
 
 #### Go To https://shell.cloud.google.com and use the below commands
 
@@ -8,7 +8,7 @@ $ ``sudo su``
 
 ------
 ## 1.cloning git repository
-$ ``git clone 'https://github.com/developeranaz/cloudshell-novnc-automation'``
+$ ``git clone 'https://github.com/nkauj/cloudshell-novnc-automation'``
 
 ------
 ## 2.change dir
@@ -21,19 +21,15 @@ $ `cd cloudshell-novnc-automation`
 $ `bash vnc.sh`
 
 ------
-## 4.It asks for ngrok authtoken
+## 4.After a few seconds, you will see a link like this:
 
-Go to https://ngrok.io in any browser & signin or signup, copy the ngrok auth token and paste in terminal
-
-###### note: ngrok token only 
-
-eg: 4OXX56rxxxI0zzZZYXXXXZ0_3xSAyW24irP0xxxxx0xx
+https://xxxxxxxx.trycloudflare.com
 
 ------
 ## 5.Acessing VM through browser
 
 After installing necessary pakages
-The script ends by giving a ngrok url section for accessing Vritual Machine.
+The script ends by giving a tunnel url section for accessing Vritual Machine.
 Access it by using your favourite browser
 
 ###### Tip1: In novnc settings change `remote scaling` to `local scaling` for correcting resolution
