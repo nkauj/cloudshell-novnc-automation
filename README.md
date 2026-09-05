@@ -24,6 +24,7 @@ $ `bash vnc.sh`
 ## 4.After a few seconds, you will see a link like this:
 
 https://xxxxxxxx.trycloudflare.com
+Open that link in your browser to use the desktop
 
 ------
 ## 5.Acessing VM through browser
